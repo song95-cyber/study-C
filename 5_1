@@ -1,0 +1,204 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+//#include<stdio.h>
+//#include<string.h>
+//int main()
+//{
+//	int line = 0;
+//	printf("join us");
+//	while (line < 10000)
+//	{
+//		printf("write a line of code\n");
+//		line++;
+//	}
+//	printf("congratulations\n");
+//	return 0;
+//
+//}
+//#include<stdio.h>
+//#include<string.h>
+//int main()
+//{
+//	int line = 0;
+//	printf("join us\n");
+//	while (line < 100000)
+//	{
+//
+//
+//		printf("write a line of code\n");
+//		line++;
+//	}
+//	
+//	printf("congratulations\n");
+//	return 0;
+//
+//}
+//#include<stdio.h>
+//#include<string.h>
+//int main()
+//{
+//	int line = 0;
+//	printf("join us\n");
+//	while (line < 1222)
+//	{
+//		printf("write a line of code\n");
+//		line++;
+//	}
+//	printf("congratulations\n");
+//	return 0;
+//
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int arr[4] = { 1, 2, 3, 4 };
+//	int i = 0;
+//	while (i < 4)
+//	{
+//		printf("%d\n", arr[i]);
+//		i++;
+//	}
+//	return 0;
+//
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int arr[4] = { 1, 2, 3, 4 };
+//	int i = 0;
+//	while (i < 4)
+//	{
+//		printf("%d\n", arr[i]);
+//		i++;
+//
+//	}
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int arr[4] = { 1, 2, 3, 4 };
+//	int i = 0;
+//	while (i < 4)
+//	{
+//		printf("%d\n", arr[i]);
+//		i++;
+//	}
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int arr[4] = { 1, 2, 3, 4 };
+//	int i = 0;
+//	while (i < 4)
+//	{
+//		printf("%d\n", arr[i]);
+//		break;
+//	}
+//	return 0;
+//}
+////
+////
+//#include<stdio.h>
+//int main()
+//{
+//	int arr[4] = { 1, 2, 3, 4 };
+//	int i = 0;
+//	while (i < 4)
+//	{
+//		printf("%d\n", arr[i]);
+//		i++;
+//	}
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int a = 0;
+//	int b = 0;
+//	int sum = 0;
+//	printf("please input 2 numbers\n");
+//	scanf("%d%d", &a, &b);
+//	sum = a - b;
+//	if (sum > 0)
+//		printf("the first number is bigger\n");
+//	else
+//		printf("the second number is bigger\n");
+//	return 0;
+//}
+//#include<stdio.h>
+//int Sum(int a, int b)
+//{
+//	int c = 0;
+//	/*char ch = 'eq';*/ //这里我想表示相等（equal）
+//	if (a - b > c)
+//		return a;
+//	else/* if */(a - b < c);
+//		return b;
+//	/*else
+//		return ch;*/
+//
+//}
+//int main()
+//{ 
+//	printf("please input 2 numbers\n");
+//	int x = 0;
+//	int y = 0;
+//	scanf("%d%d", &x, &y);
+//	int sum = Sum(x, y);
+//	printf("the large number is:>%d\n :>", sum);
+//
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int a = 0;
+//	int b = 0;
+//	int c = 0;
+//	scanf("%d%d", &a, &b);
+//	printf("%d\n", sizeof(sizeof(a)));
+//	printf("%d\n", sizeof(sizeof(b)));
+//
+//	return 0;
+////}
+//#include<stdio.h>
+//int main()
+//{
+//	int arr[] = { 1, 3, 4, 5, 6, 7, 8 };
+//	printf("%d\n", sizeof(arr) / sizeof(int));
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int a = 23;
+//	int b = a++;
+//	printf("%d\n%d\n", a, b);
+//
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int a = 34;
+//	int b = ++a;
+//	printf("%d\n%d\n", a, b);
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int a = 0;
+//	int b = a--;
+//	printf("%d\n%d\n", a, b);
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int a = 0;
+//	int b = --a;
+//	printf("%d\n%d\n", a, b);
+//	return 0;
+//}
