@@ -12,3 +12,272 @@ int main()
 	printf("%p\n", p);
 	
 	return 0;
+#define _CRT_SECURE_NO_WARNINGS 1
+//int main()
+//{
+//
+//
+//	D
+//
+//	int a = 0;
+//	printf("%p\n", &a);
+//	int* p = &a;
+//	printf("%d\n", p);
+//	printf("%p\n", p);
+//	
+//	return 0;
+//}
+//int main()
+//{
+//	int a = 6;
+//	int* p = &a;
+//	printf("%p\n", p);
+//	printf("%d\n",*p);
+//	*p = 49;
+//	printf("%d\n", a);
+//	return 0; 
+//
+//}
+//dint main()
+//{
+//	double a = 3.14;
+//	int* dp = &a;
+//	printf("%p\n", dp);
+//	*dp = 3.22222;
+//	printf("%lf\n", a);
+//	
+//	return 0;
+//}
+//int main()
+//{
+//	double a = 3.14;
+//	double* dp = &a;
+//	printf("%p\n", dp);
+//	*dp = 6.222;
+//	printf("%lf\n", a);
+//	return 0;
+//}
+//int main()
+//{
+//	double a = 3.222;
+//	double* dp = &a;
+//	printf("%lf\n", dp);
+//	*dp = 3.333;
+//	printf("%d\n", *dp);
+//	printf("%d\n", sizeof(dp));
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int a = 5;
+//	int b = 3;
+//	int c = a&&b;
+//	printf("%d\n", c);
+//	return 0; 
+//
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int a = 3;
+//	int b = 0;
+//	int c = a&&b;
+//	printf("%d\n", c);
+//	return 0;
+//
+////}
+//#include<stdio.h>
+//int main()
+//{
+//	int a = 3;
+//	int b = 0;
+//	int c = a || b;
+//	printf("%d\n", c);
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	int a = 0;
+//	int b = 0;
+//	int c = a || b;
+//	printf("%d\n", c);
+//	
+//	return 0;
+//}
+//int main()
+//{
+//	int a = 49;
+//	int b = 32;
+//	int max = (a > b ? a : b);
+//		printf("%d\n", max);
+//	return 0;
+//}
+//#include<stdio.h>
+//
+//int main()
+//{
+//	int a = 0;
+//	int b = 0;
+//	int max = (a > b ? a : b);
+//	printf("the bigger number is : %d\n", max);
+//	return 0;
+////}
+//int main()
+//{
+//	int a = 34;
+//	int b = 33;
+//	if (a > b)
+//		printf("the bigger number is :%d\n", a);
+//	else
+//	 	printf("the bigger number is:%d\n",b);
+//
+//
+//	return 0;
+//}
+//int main()
+//{
+//	typedef unsigned int u_int;
+//	u_int num = 33;
+//	printf("%d\n", num);
+//
+//
+//
+//	return 0;
+//}
+//int main()
+//{
+//	typedef unsigned int u_int;
+//	u_int num = 44;
+//	printf("%d\n", num);
+//	return 0;
+//}
+//void test()
+//{
+//	static int a = 1;
+//	printf("We have a number:%d\n", a);
+//	a++;
+//
+//}
+//int main()
+//{
+//	int b = 0;
+//	while (b < 5)
+//	{
+//		test();
+//			b++;
+//	}
+//	return 0;
+//}
+//void test()
+//{
+//	static int a = 1;
+//	printf("We have a number :%d\n", a);
+//	a++;
+//}
+//int main()
+//{
+//	int b = 0;
+//	while (b < 5)
+//	{
+//		test();
+//		b++;
+//	}
+//	return 0;
+//}
+//void test()
+//{
+//	static int a = 1;
+//	printf("We have a number is:%d\n", a);
+//	a++;
+//}
+//int main()
+//{
+//	int b = 0;
+//	while (b < 5)
+//	{
+//		test();
+//		b++;
+//	}
+//	return 0;
+//} 
+//void test()
+//{
+//	static int a = 0;
+//	printf("We have a number is:%d\n", a);
+//	a++;
+//
+//}
+//int main()
+//{
+//	int b = 0;
+//	while (b < 5)
+//	{
+//		test();
+//		b++;
+//	}
+//	return 0;
+//}
+//int main()
+//{
+//	int a = 0;
+//	extern num_1;
+//	printf("%d\n", num_1);
+//	return 0;
+//}
+//int main()
+//{
+//	extern int num_1;
+//	printf("%d\n", num_1);
+//	return 0;
+//}
+//#include<stdio.h>
+//extern Sum(int, int);
+//int main()
+//{
+//	int a = 0;
+//	int b = 0;
+//	int max = 0;
+//	scanf("%d%d", &a, &b);
+//	max = Sum(a, b);
+//	printf("%d\n", max);
+//	return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//	extern Sum(int, int);
+//	int a = 0;
+//	int b = 0;
+//	int sum = 0;
+//	scanf("%d%d", &a, &b);
+//	sum = Sum(a, b);
+//	printf("%d\n", sum);
+//	
+//	return 0;
+//}
+//Max(int x, int y)
+//{
+//	if (x > y)
+//		return x;
+//	else
+//		return y;
+//}
+//int main()
+//{
+//	int a = 3;
+//	int b = 33;
+//	int max = Max(a, b);
+//	printf("The bigger one is: %d\n", max);
+//	return 0;
+//}
+//#define MAX(a,b)(a>b?a:b)
+//int main()
+//{
+//	int x = 0;
+//	int y = 10;
+//	int max = MAX(x, y);
+//	printf("The bigger one is:%d\n", max);
+//	return 0;
+//}
